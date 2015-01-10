@@ -23,7 +23,6 @@ We HIGHLY recommended to keep the Map API clean & readable. You should properly 
 ## Releasing your Map
 Before releasing your map for our developers which is [CubedRams](http://twitter.com/TheRamsnet) and [PsychothekidLMC](https://github.com/Psychothekid), we HIGHLY recommended to follow these guidelines. This will speed up some time to take it faster for your map to be ready for testing.
 
-
 ## Work with us
 
 We'd love to have any help you wish to give!
