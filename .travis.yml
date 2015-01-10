@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+- '0.10'
+before_script:
+  - eval $(ssh-agent -k)
+  - chmod 600 gamersdeployer.pub
+  - ssh-add gamersdeployer.pub
+  - git config --global user.email "pigoshoriginal1@gmail.com"
+  - git config --global user.name "Dito W"
+script: npm run-script travis-deploy
+after_script: eval $(ssh-agent -k)
+branches:
+  only: master
+notifications:
+  email: false
+env:
+  - GIT_REPO=git@github.com/GamersNetworkMC/MapDocs.git
+  - secure: W5TgQC2ndYeD5jKB3rmksX+1JZ40VFilHDtCW+eVGf7S9C/akXq5l/6QNA3P5we96CGadPsGvlsa1vkwoSz4KPn/Ifil3CriEa8A55mTuPYrKWfgImPhv64jRlREBNNSgdvQkc9Cn8vdPs806589q/FDp6Xqa1GZD63tHQjbdkA=

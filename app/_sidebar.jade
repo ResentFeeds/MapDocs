@@ -1,0 +1,14 @@
+- var active = function (link) { return (activeLinks.indexOf(link) !== -1) ? 'active' : ''; };
+mixin nested(article)
+  li(class=active(article.link))
+    a(href="#{article.link}")= article.title
+  if article.articles && article.articles.length > 0
+    ul.nav.nav-nested
+      each sub in article.articles
+        +nested(sub)
+.panel.panel-default
+  .panel-heading Articles
+  .panel-body
+    ul.nav.docs-nav
+      each article in articles
+        +nested(article)
