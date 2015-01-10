@@ -229,6 +229,24 @@ setSearchData([
     ]
   },
   {
+    "link": "/packaging",
+    "title": "Packaging",
+    "body": "<h2 id=\"packaging-guidelines\">Packaging Guidelines</h2>\n<p>Before you releasing your map to map developers, make sure that you have clean the world folder. For more information,\ncheck him out --&gt; <a href=\"/package_guideline\">me</a></p>\n<h2 id=\"compiling-releasing\">Compiling &amp; Releasing</h2>\n\n## Packaging Guidelines\nBefore you releasing your map to map developers, make sure that you have clean the world folder. For more information,\ncheck him out --> [me](/package_guideline)\n\n## Compiling & Releasing\n",
+    "crumbsFlat": "docs/packaging",
+    "crumbs": [
+      {
+        "active": false,
+        "title": "docs",
+        "link": "/"
+      },
+      {
+        "active": true,
+        "title": "packaging",
+        "link": "/packaging"
+      }
+    ]
+  },
+  {
     "link": "/packaging/package_guideline",
     "title": "Cleaning Map Files",
     "body": "<p>Minecraft (and maybe MCEdit) generate a few files in your world folder (Map Name) when you create a world. Most of these files\nare not needed and by deleting them can reduce the size of the world.</p>\n<p>This is the table (handcrafted) which displays all the files that MAY be generated in your folder.</p>\n<table>\n<thead>\n<tr>\n<th style=\"text-align:left\">File Name</th>\n<th style=\"text-align:center\">REQUIRED</th>\n<th style=\"text-align:right\">DESCRIPTION</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:left\"><code>level.dat</code></td>\n<td style=\"text-align:center\">YES</td>\n<td style=\"text-align:right\">Stores all information about the world and such things</td>\n</tr>\n<tr>\n<td style=\"text-align:left\"><code>region/</code></td>\n<td style=\"text-align:center\">YES</td>\n<td style=\"text-align:right\">Contains all the regions and chunks of that world</td>\n</tr>\n<tr>\n<td style=\"text-align:left\"><code>level.dat_mcr</code></td>\n<td style=\"text-align:center\">NO</td>\n<td style=\"text-align:right\">A backup of level.dat from MCRegion</td>\n</tr>\n<tr>\n<td style=\"text-align:left\"><code>level.dat_old</code></td>\n<td style=\"text-align:center\">NO</td>\n<td style=\"text-align:right\">A backup of level.dat</td>\n</tr>\n<tr>\n<td style=\"text-align:left\"><code>session.lock</code></td>\n<td style=\"text-align:center\">NO</td>\n<td style=\"text-align:right\">A timestamp of a session when the level/world was last accessed</td>\n</tr>\n<tr>\n<td style=\"text-align:left\"><code>players/</code></td>\n<td style=\"text-align:center\">NO</td>\n<td style=\"text-align:right\">Contains player.dat files which store player information</td>\n</tr>\n<tr>\n<td style=\"text-align:left\"><code>data/</code></td>\n<td style=\"text-align:center\">NO</td>\n<td style=\"text-align:right\">Stores all information about things in the world</td>\n</tr>\n<tr>\n<td style=\"text-align:left\"><code>DIM-1 &amp; DIM1</code></td>\n<td style=\"text-align:center\">NO</td>\n<td style=\"text-align:right\">Contains all region and chunks files for The Nether and The End</td>\n</tr>\n</tbody>\n</table>\n<p>If you can&#39;t read it properly, head to <a href=\"https://github.com/GamersNetworkMC/MapDocs/blob/master/docs/packaging/package_guideline.md\">this link</a></p>\n<p>and such.</p>\n\nMinecraft (and maybe MCEdit) generate a few files in your world folder (Map Name) when you create a world. Most of these files\nare not needed and by deleting them can reduce the size of the world.\n\nThis is the table (handcrafted) which displays all the files that MAY be generated in your folder.\n\n| File Name  |  REQUIRED  |  DESCRIPTION  |\n|:------------------|:------------:|---------------:|\n|   `level.dat`     |    YES     | Stores all information about the world and such things  |\n|   `region/`       |    YES     | Contains all the regions and chunks of that world       |\n|   `level.dat_mcr` |    NO      | A backup of level.dat from MCRegion                     |\n|   `level.dat_old` |    NO      | A backup of level.dat                                   |\n|   `session.lock`  |    NO      | A timestamp of a session when the level/world was last accessed  |\n|   `players/`      |    NO      | Contains player.dat files which store player information|\n|   `data/`         |    NO      | Stores all information about things in the world        |\n|   `DIM-1 & DIM1`  |    NO      | Contains all region and chunks files for The Nether and The End        |\n\nIf you can't read it properly, head to [this link](https://github.com/GamersNetworkMC/MapDocs/blob/master/docs/packaging/package_guideline.md)\n\nand such.\n",
