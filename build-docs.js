@@ -141,7 +141,7 @@ module.exports = function (cb) {
         activeLinks: activeLinks
       }),
       breadcrumbs: crumbs,
-      link: 'https://github.com/LapisBlue/Docs/blob/master/' + info.file
+      link: 'https://github.com/GamersNetworkMC/MapDocs/blob/master/' + info.file
     });
     searchData.push({
       link: info.link,
