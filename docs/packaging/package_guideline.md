@@ -8,7 +8,7 @@ are not needed and by deleting them can reduce the size of the world.
 This is the table (handcrafted) which displays all the files that MAY be generated in your folder.
 
 | Folder/File Name  |  REQUIRED  |  DESCRIPTION  |
-|-------------------|------------|---------------|
+|:------------------|:------------:|---------------:|
 |   `level.dat`     |    YES     | Stores all information about the world and such things  |
 |   `region/`       |    YES     | Contains all the regions and chunks of that world       |
 |   `level.dat_mcr` |    NO      | A backup of level.dat from MCRegion                     |
