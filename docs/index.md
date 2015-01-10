@@ -11,7 +11,17 @@ more awesome maps!
 
 ## What do Map API do?
 Our configuration, which morpig called as the 'Map API' configure how that game manages that game during game-play or in-game.
-All The Gamers Network map requires Map API to function properly. Map API defines a lot of aspects such as spawn points,
+All The Gamers Network map requires Map API to function properly. Map API defines a lot of aspects such as spawn points, teams, chest config and more. Each file is unique (some of them are the same) to it's map.
+
+## Writing the Map API
+Almost all text editor (maybe except Notepad) can create and edit Map API files which is YAML.
+
+We recommend that you use [Sublime Text](http://www.sublimetext.com/) or [Atom](https://atom.io) to create and edit Map API files.
+
+We HIGHLY recommended to keep the Map API clean & readable. You should properly indent them using 4 spaces and specify the API you intend to use.
+
+## Releasing your Map
+Before releasing your map for our developers which is [CubedRams](http://twitter.com/TheRamsnet) and [PsychothekidLMC](https://github.com/Psychothekid), we HIGHLY recommended to follow these guidelines. This will speed up some time to take it faster for your map to be ready for testing.
 
 
 ## Work with us
