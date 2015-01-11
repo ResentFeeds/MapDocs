@@ -29,4 +29,4 @@ We'd love to have any help you wish to give!
 
 We have several communication methods:
 
-- Coming soon!
+- Slack [coming soon]
