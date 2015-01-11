@@ -18,6 +18,6 @@ This is the table (handcrafted) which displays all the files that MAY be generat
 |   `data/`         |    NO      | Stores all information about things in the world        |
 |   `DIM-1 & DIM1`  |    NO      | Contains all region and chunks files for The Nether and The End        |
 
-If you can't read it properly, head to [this link](https://github.com/GamersNetworkMC/MapDocs/blob/master/docs/packaging/package_guideline.md)
+If you can't read it properly, head to [this link](https://github.com/GamersNetworkMC/MapDocs/blob/master/docs/packaging/cleaning_guideline.md)
 
 and such.
