@@ -54,16 +54,16 @@
         </ul>
       </ul>
       <li><a href="/gamersabout">About The Gamers Network</a></li>
-      <li class="active"><a href="/guides">Guides</a></li>
+      <li><a href="/guides">Guides</a></li>
       <li><a href="/lapis">Lapis</a></li>
       <ul class="nav nav-nested">
         <li><a href="/lapis/code-style">Code Style</a></li>
         <li><a href="/lapis/compiling">Compiling</a></li>
         <li><a href="/lapis/contributing">Contributing</a></li>
       </ul>
-      <li><a href="/packaging">Packaging</a></li>
+      <li class="active"><a href="/packaging">Packaging</a></li>
       <ul class="nav nav-nested">
-        <li><a href="/packaging/compiling_releasing">Compiling &amp; Publishing</a></li>
+        <li class="active"><a href="/packaging/compiling_releasing">Compiling &amp; Publishing</a></li>
         <li><a href="/packaging/package_guideline">Cleaning Map Files</a></li>
       </ul>
       <li><a href="/pore">Pore</a></li>
@@ -75,12 +75,28 @@
 </div>
         </div>
         <div class="col-md-9 main">
-          <h1 class="page-header">Guides
-            <div class="pull-right"><a href="https://github.com/GamersNetworkMC/MapDocs/blob/master/docs/guides/index.md" data-toggle="tooltip" data-placement="left" title="Improve this article" class="btn btn-default edit-btn"><i class="fa fa-pencil fa-fw"></i></a></div></h1><p><strong>TODO:</strong> Under here we will put several guides for developers, server owners, and server users.</p>
+          <h1 class="page-header">Compiling &amp; Publishing
+            <div class="pull-right"><a href="https://github.com/GamersNetworkMC/MapDocs/blob/master/docs/packaging/compiling_releasing.md" data-toggle="tooltip" data-placement="left" title="Improve this article" class="btn btn-default edit-btn"><i class="fa fa-pencil fa-fw"></i></a></div></h1><p>Once your world is cleaned up, it is ready to publish. Add map.yml to the world folder. Below is an image what the folder
+should look like:</p>
+<pre><code>  C O M I N G S O O N .
+</code></pre><h1 id="information-about-map-yml-">Information about <code>map.yml</code></h1>
+<p>The <code>map.yml</code> is the Map API you coded for your map. The file is very important when it comes to having your
+map loaded and tested.</p>
+<p>Also, take note of the code guidelines when creating your <code>map.yml</code> file:</p>
+<pre><code>  - *Verify there are no tabs* in the *YML* - 4 spaces
+  - Change the map version if there&#39;s a gameplay change or map change
+  - Check again that your YML file is correct.
+</code></pre><h1 id="compiling-your-folder-to-zip">Compiling your folder to ZIP</h1>
+<p>Before you upload your map, compress the folder to a <code>.zip</code> format. We dont accept <code>.rar</code> format.
+To compress your folder:</p>
+<pre><code>- `Windows` Right-click folder -&gt; Send to -&gt; Compressed Zip
+</code></pre><h1 id="uploading-your-worrld">Uploading your worrld</h1>
+<p>To upload your world, we recommned using Dropbox, MediaFire or MEGA.</p>
 
           <ol class="breadcrumb doc-breadcrumb">
             <li><a href="/">docs</a></li>
-            <li class="active">guides</li>
+            <li><a href="/packaging">packaging</a></li>
+            <li class="active">compiling_releasing</li>
           </ol>
         </div>
       </div>

@@ -229,9 +229,32 @@ setSearchData([
     ]
   },
   {
+    "link": "/packaging/compiling_releasing",
+    "title": "Compiling & Publishing",
+    "body": "<p>Once your world is cleaned up, it is ready to publish. Add map.yml to the world folder. Below is an image what the folder\nshould look like:</p>\n<pre><code>  C O M I N G S O O N .\n</code></pre><h1 id=\"information-about-map-yml-\">Information about <code>map.yml</code></h1>\n<p>The <code>map.yml</code> is the Map API you coded for your map. The file is very important when it comes to having your\nmap loaded and tested.</p>\n<p>Also, take note of the code guidelines when creating your <code>map.yml</code> file:</p>\n<pre><code>  - *Verify there are no tabs* in the *YML* - 4 spaces\n  - Change the map version if there&#39;s a gameplay change or map change\n  - Check again that your YML file is correct.\n</code></pre><h1 id=\"compiling-your-folder-to-zip\">Compiling your folder to ZIP</h1>\n<p>Before you upload your map, compress the folder to a <code>.zip</code> format. We dont accept <code>.rar</code> format.\nTo compress your folder:</p>\n<pre><code>- `Windows` Right-click folder -&gt; Send to -&gt; Compressed Zip\n</code></pre><h1 id=\"uploading-your-worrld\">Uploading your worrld</h1>\n<p>To upload your world, we recommned using Dropbox, MediaFire or MEGA.</p>\n\nOnce your world is cleaned up, it is ready to publish. Add map.yml to the world folder. Below is an image what the folder\nshould look like:\n\n      C O M I N G S O O N .\n\n\n# Information about `map.yml`\nThe `map.yml` is the Map API you coded for your map. The file is very important when it comes to having your\nmap loaded and tested.\n\nAlso, take note of the code guidelines when creating your `map.yml` file:\n      - *Verify there are no tabs* in the *YML* - 4 spaces\n      - Change the map version if there's a gameplay change or map change\n      - Check again that your YML file is correct.\n\n# Compiling your folder to ZIP\nBefore you upload your map, compress the folder to a `.zip` format. We dont accept `.rar` format.\nTo compress your folder:\n    - `Windows` Right-click folder -> Send to -> Compressed Zip\n\n# Uploading your worrld\nTo upload your world, we recommned using Dropbox, MediaFire or MEGA.\n",
+    "crumbsFlat": "docs/packaging/compiling_releasing",
+    "crumbs": [
+      {
+        "active": false,
+        "title": "docs",
+        "link": "/"
+      },
+      {
+        "active": false,
+        "title": "packaging",
+        "link": "/packaging"
+      },
+      {
+        "active": true,
+        "title": "compiling_releasing",
+        "link": "/packaging/compiling_releasing"
+      }
+    ]
+  },
+  {
     "link": "/packaging",
     "title": "Packaging",
-    "body": "<h2 id=\"packaging-guidelines\">Packaging Guidelines</h2>\n<p>Before you releasing your map to map developers, make sure that you have clean the world folder. For more information,\ncheck him out --&gt; <a href=\"/package_guideline\">me</a></p>\n<h2 id=\"compiling-releasing\">Compiling &amp; Releasing</h2>\n\n## Packaging Guidelines\nBefore you releasing your map to map developers, make sure that you have clean the world folder. For more information,\ncheck him out --> [me](/package_guideline)\n\n## Compiling & Releasing\n",
+    "body": "<h2 id=\"packaging-guidelines\">Packaging Guidelines</h2>\n<p>Before you releasing your map to map developers, make sure that you have clean the world folder. For more information,\ncheck him out --&gt; <a href=\"/packaging/package_guideline\">me</a></p>\n<h2 id=\"compiling-releasing\">Compiling &amp; Releasing</h2>\n<p>After your world is cleaned up, it is ready to compile. Add map.yml (Map API file) to the folder.</p>\n\n## Packaging Guidelines\nBefore you releasing your map to map developers, make sure that you have clean the world folder. For more information,\ncheck him out --> [me](/packaging/package_guideline)\n\n## Compiling & Releasing\nAfter your world is cleaned up, it is ready to compile. Add map.yml (Map API file) to the folder.\n",
     "crumbsFlat": "docs/packaging",
     "crumbs": [
       {
