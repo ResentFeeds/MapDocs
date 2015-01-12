@@ -25,7 +25,7 @@ Before releasing your map for our developers which is [CubedRams](http://twitter
 
 ## Work with us
 
-We'd love to have any help you wish to give!
+Don't hesitate to ask admin members of The Gamers Network if you have any questions.
 
 We have several communication methods:
 
